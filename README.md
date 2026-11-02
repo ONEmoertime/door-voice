@@ -52,8 +52,12 @@ python tools/sim_device.py --text "别开门"      # 应该只收到 reply，没
 ```
 
 看到 `指令 unlock → 校验 ok` 就说明协议闭环了——**这一步过了再碰硬件**，
-否则出问题你分不清是云端、协议还是板子。
-![1.png]https://github.com/ONEmoertime/-/blob/main/images/1.png
+否则出问题你分不清是云端、协议还是板子。、
+
+开门指令
+![1.png](https://github.com/ONEmoertime/-/blob/main/images/1.png)
+禁止开门指令
+![2.png](https://github.com/ONEmoertime/-/blob/main/images/2.png)
 
 ## 硬件接线
 
